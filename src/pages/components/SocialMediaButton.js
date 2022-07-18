@@ -12,7 +12,7 @@ export default function SocialMediaButton(props) {
       case "mail":
         return (
           <a
-            className="social_media_button__container"
+            className={`social_media_button__container ${type}_button`}
             href="mailto:lorysjele@gmail.com"
           >
             <FontAwesomeIcon icon={iconName} />
@@ -21,7 +21,7 @@ export default function SocialMediaButton(props) {
       case "github":
         return (
           <a
-            className="social_media_button__container"
+            className={`social_media_button__container ${type}_button`}
             href="https://github.com/KRXTCH"
             target={"_blank"}
           >
@@ -31,7 +31,7 @@ export default function SocialMediaButton(props) {
       case "linkedin":
         return (
           <a
-            className="social_media_button__container"
+            className={`social_media_button__container ${type}_button`}
             href="https://www.linkedin.com/in/lorysjelezian/"
             target={"_blank"}
           >
@@ -41,13 +41,15 @@ export default function SocialMediaButton(props) {
       case "cv":
         return (
           <a
-            className="social_media_button__container"
+            className={`social_media_button__container ${type}_button`}
             href={CV}
             download="Jelezian_Lorys_CV_pdf"
           >
             <FontAwesomeIcon icon={iconName} />
           </a>
         );
+      default:
+        return <div className="social_media_button__container"></div>;
     }
   };
 

@@ -29,7 +29,7 @@ function ProjectCard(props){
     if(title === "QubitsRatz"){
       return (
         <div className="illustration__QubitsRatz">
-          <img src={QrCodeSvg} className="card__image_QubitsRatz"/>
+          <img alt='qr_code_image' src={QrCodeSvg} className="card__image_QubitsRatz"/>
         </div>
       )
     }

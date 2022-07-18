@@ -16,7 +16,7 @@ function Home() {
             <p>Lorys</p>
           </div>
           <div className="home__subtitle">
-            Actuelle en Master 1 à l'école Sophia Ynov Campus, je suis à la
+            Actuellement en Master 1 à l'école Sophia Ynov Campus, je suis à la
             recherche d'une alternance pour ces deux dernières années. Ce
             portfolio contient différents projets que j'ai pu réalisés, ainsi
             qu'une présentation de qui je suis.

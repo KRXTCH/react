@@ -6,7 +6,7 @@ import "../css/AboutMe.css";
 import {faEnvelope} from "@fortawesome/free-regular-svg-icons/faEnvelope";
 import {faGithub} from "@fortawesome/free-brands-svg-icons/faGithub";
 import {faLinkedinIn} from "@fortawesome/free-brands-svg-icons/faLinkedinIn";
-import {faWpforms} from "@fortawesome/free-brands-svg-icons/faWpforms";
+import {faFilePdf} from "@fortawesome/free-solid-svg-icons/faFilePdf";
 import RouteDesign from '../components/RouteDesign';
 
 
@@ -46,7 +46,7 @@ export default function AboutMe(){
             <SocialMediaButton iconName={faEnvelope} type="mail" />
             <SocialMediaButton iconName={faGithub} type="github"/>
             <SocialMediaButton iconName={faLinkedinIn} type="linkedin"/>
-            <SocialMediaButton iconName={faWpforms} type="cv"/>
+            <SocialMediaButton iconName={faFilePdf} type="cv"/>
           </div>
         </div>
       </section>
