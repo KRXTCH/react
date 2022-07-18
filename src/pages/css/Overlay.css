@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.overlay__top-left{
+    position: absolute;
+    left: 10vh;
+    top: 15vh;
+    transform: rotate(-90deg);
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    font-weight: 100;
+}
+
+.overlay__bottom-right{
+    position: absolute;
+    right: 10vh;
+    transform: rotate(90deg);
+    bottom: 20vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: small;
+}

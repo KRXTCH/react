@@ -1,0 +1,41 @@
+.social_media_button__container{
+    width: fit-content;
+    height: fit-content;
+    display: inline-flex;
+    color: #d5fff2;
+    background-color: #0e2125;
+    padding: 1rem;
+    border-bottom: 3px solid #508186;
+    box-shadow: 0 1vh 2.5vh 0px #7da3977d;
+    margin-top: 15vh;
+    margin-left: 10vh;
+    cursor: pointer;
+    transform: scale(1.5);
+    animation: over_button_out 0.1s ease-in;
+}
+
+.social_media_button__container:hover{
+    animation: over_button_in 0.1s ease-in forwards;
+    box-shadow: 0 1vh 2.5vh 0px #d5fff29d;
+    border-bottom: 3px solid #d5fff29d;
+}
+
+
+
+@keyframes over_button_in{
+    0%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(2);
+    }
+}
+
+@keyframes over_button_out{
+    0%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+}

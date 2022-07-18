@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.project_card{
+    width: 35vh;
+    height: 55vh;
+    background: rgb(14,33,37);
+    background: linear-gradient(rgba(14,33,37,1) 54%, rgba(7,51,56,1) 100%); 
+    margin: 1vh 5vh;
+    overflow: hidden;
+    border-bottom: 5px solid #508186;
+    box-shadow: 0px 2vh 5vh 0px #7da3977d;
+    animation: over_out 0.1s ease-in;
+    }
+
+.project_card:hover{
+    animation: over_in 0.1s ease-in forwards;
+    box-shadow: 0px 2vh 5vh 0px #d5fff29d;
+    border-bottom: 5px solid #d5fff29d;
+}
+
+.card__number{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin: 3vh;
+    margin-bottom: 7vh;
+    font-size: 4vh;
+    color: #d5fff2;
+    line-height: 2.5vh;
+    text-shadow: #7da3977d 1px 0 10px;
+}
+
+.card__title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 22vh;
+    font-size: 4vh;
+    text-transform: uppercase;
+    color: #d5fff2;
+}
+
+
+.card__image_Fill{
+    background-image: url("../../images/image_prj_1/Player.png");
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 120px;
+    transform: translate3d(13vh, 0, 0)  rotate(10deg) ;
+    margin: auto;
+    z-index: 2;
+    position: absolute;
+}
+
+.Fill__block{
+    position: absolute;
+    background-image: url("../../images/image_prj_1/Block.png");
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 120px;
+    transform: scale(0.7) translate3d(10vh, -5vh, 0) rotate(-10deg);
+    z-index: 1;
+}
+
+.Fill__block_2{
+    position: absolute;
+    background-image: url("../../images/image_prj_1/Block.png");
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 120px;
+    transform: scale(0.55) translate3d(32vh, 10vh, 0) rotate(-10deg);
+    z-index: 1;
+}
+
+.card__image_Imagik{
+    position: absolute;
+    background-image: url("../../images/image_prj_2/1.jpg");
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 120px;
+    transform: translate3d(15vh, 2vh, 0);
+    z-index: 2;
+}
+
+.card__image_Imagik_2{
+    position: absolute;
+    background-image: url("../../images/image_prj_2/3.jpg");
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 120px;
+    transform: translate3d(10vh, -2vh, 0);
+    z-index: 1;
+}
+
+.card__image_QubitsRatz{
+    position: absolute;
+    height: 18vh;
+    transform: translate3d(8.5vh, -5vh, 0);
+    z-index: 1;
+}
+
+.card__description{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 1.3vh;
+    width: 20vh;
+    margin: 1vh auto;
+}
+
+@keyframes over_in{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+
+@keyframes over_out{
+    0%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
