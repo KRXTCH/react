@@ -3,12 +3,12 @@
 .project_card{
     width: 35vh;
     height: 55vh;
-    background: rgb(14,33,37);
-    background: linear-gradient(rgba(14,33,37,1) 54%, rgba(7,51,56,1) 100%); 
+    background: rgb(32, 14, 37);
+    background: linear-gradient(rgb(29, 14, 37) 54%, rgb(36, 7, 56) 100%); 
     margin: 1vh 5vh;
     overflow: hidden;
-    border-bottom: 5px solid #508186;
-    box-shadow: 0px 2vh 5vh 0px #7da3977d;
+    border-bottom: 5px solid #755086;
+    box-shadow: 0px 2vh 5vh 0px #9a7da37d;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     animation: over_out 0.1s ease-in;
@@ -16,8 +16,8 @@
 
 .project_card:hover{
     animation: over_in 0.1s ease-in forwards;
-    box-shadow: 0px 2vh 5vh 0px #d5fff29d;
-    border-bottom: 5px solid #d5fff29d;
+    box-shadow: 0px 2vh 5vh 0px #fad5ff9d;
+    border-bottom: 5px solid #fad5ff9d;
 }
 
 .card__number{
@@ -26,9 +26,9 @@
     margin: 3vh;
     margin-bottom: 7vh;
     font-size: 4vh;
-    color: #d5fff2;
+    color: #f7d5ff;
     line-height: 2.5vh;
-    text-shadow: #7da3977d 1px 0 10px;
+    text-shadow: #9d7da37d 1px 0 10px;
 }
 
 .card__title{
@@ -38,7 +38,7 @@
     margin-top: 22vh;
     font-size: 4vh;
     text-transform: uppercase;
-    color: #d5fff2;
+    color: #f3d5ff;
 }
 
 

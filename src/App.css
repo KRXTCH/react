@@ -2,28 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.bg_img{
-  background-image: url("../src/images/mountain.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-size: 200vh;
-  height: 300vh;
-  width: 100%;
-}
-
 .App-body {
-  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -34,16 +13,54 @@
  
 }
 
-.App-link {
-  color: #61dafb;
+.main__container{
+  transform-style: preserve-3d;
+  width: 100%;
+  height: 100vh;
+  background-color: #0a0030;
+  padding-top: 8vh;
 }
 
+.background__back{
+  background-image: url("../src/images/svg/Landscape/Background.png");
+  background-size: contain;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.background__middle{
+  background-image: url("../src/images/svg/Landscape/Middleground.png");
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+
+.background__front{
+  background-image: url("../src/images/svg/Landscape/Foreground.png");
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.nav__container{
+  transform: translateZ(150vh);
+  height: 230vh;
+  position: absolute;
+}
+
+.divider{
+  height: 15vh;
+  background-color: #351f5d;
+  transform: translateZ(-5vh);
 }

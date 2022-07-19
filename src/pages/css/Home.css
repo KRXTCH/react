@@ -3,10 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
+#home{
+    transform: translateZ(100vh);
+    height: 100vh;
+}
 
 .home__container{
     position:absolute;
-    bottom: 20vh;
+    bottom: 50vh;
     left: 25vh;
     text-align: left;
     line-height: 1rem;
