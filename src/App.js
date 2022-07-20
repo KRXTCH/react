@@ -7,6 +7,7 @@ import Projects from "./pages/main-pages/Projects";
 import StickyBox from "react-sticky-box";
 
 import onScroll from "../src/scripts/onScroll.js";
+import ProExp from "./pages/main-pages/ProExp";
 
 function App() {
   return (
@@ -18,19 +19,18 @@ function App() {
           <div className="background__middle" />
           <div
             className="background__front"
-            style={{ transform: "translateY(15vh)" }}
+            style={{ transform: "translateY(10vh) translateZ(105vh)" }}
           />
           <div className="nav__container">
           <StickyBox>
               <NavBar />
             </StickyBox>
           </div>
-          <div className="main_pages" style={{ transform: "translateZ(100vh)", height: "100vh" }}>
             <Home />
             <div className="divider" />
             <AboutMe />
             <Projects />
-          </div>
+            <ProExp />
         </div>
       </div>
     </div>

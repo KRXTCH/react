@@ -1,0 +1,79 @@
+#pro_exp{
+    transform: translateY(200vh);
+    height: 200vh;
+    background-color: #1c091e;
+    background: linear-gradient(0deg, #1c091e 98%, #2b0f2d 100%); 
+}
+
+.pro_exp__container{
+    position:absolute;
+    top: 15vh;
+    left: 25vh;
+    right: 25vh;
+    text-align: left;
+}
+
+.pro_exp__title{
+    width: fit-content;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.pro_exp__p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-align: justify;
+    margin-top: 5vh;
+    font-size: 1.5vh;
+    line-height: 3vh;
+    width: 100%;
+}
+
+.plant__container{
+    display: flex;
+    margin:15vh 0;
+}
+
+.plant_catalog__img{
+    width: 75vh;
+    height: auto;
+    float: right;
+    border: 10px solid rgb(46, 22, 59);
+}
+
+.plant__container p {
+}
+
+.pricing__img{
+    width: 65vh;
+    height: auto;
+    float: left;
+    border: 10px solid rgb(46, 22, 59);
+}
+
+.pricing__container{
+    display: flex;
+    margin: 15vh 0;
+}
+
+.pricing__container p{
+    float: right;
+    text-align: right;
+}
+
+a{
+    color: white;
+}
+
+.button{
+    color: black!important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.1vh;
+    text-transform: uppercase;
+    background-color: white;
+    padding: 1vh;
+    cursor: pointer;
+    text-decoration: none;
+}

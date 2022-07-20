@@ -7,7 +7,8 @@
     position: absolute;
     width: 100%;
     height: 100vh;
-    background-color: #351f5d;
+    background: #311237;
+    background: linear-gradient(0deg, #311237 97%, rgba(51,21,70,1) 100%); 
 }
 
 .about_me__container{

@@ -5,8 +5,9 @@
 #projects{
     position: absolute;
     width: 100%;
-    height: 100vh;
-    background-color: #351f5d;
+    height: 110vh;
+    background-color: #2b0f2d;
+    background: linear-gradient(0deg, #2b0f2d 97%, #311237 100%); 
     transform: translateY(100vh);
 }
 
