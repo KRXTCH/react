@@ -1,7 +1,7 @@
 {
-  "main.css": "/react-portfolio/static/css/main.a7068522.chunk.css",
-  "main.js": "/react-portfolio/static/js/main.092186b9.chunk.js",
-  "main.js.map": "/react-portfolio/static/js/main.092186b9.chunk.js.map",
+  "main.css": "/react-portfolio/static/css/main.4b2b443e.chunk.css",
+  "main.js": "/react-portfolio/static/js/main.34a9d3c8.chunk.js",
+  "main.js.map": "/react-portfolio/static/js/main.34a9d3c8.chunk.js.map",
   "static/js/1.38ecc02d.chunk.js": "/react-portfolio/static/js/1.38ecc02d.chunk.js",
   "static/js/1.38ecc02d.chunk.js.map": "/react-portfolio/static/js/1.38ecc02d.chunk.js.map",
   "static/js/2.4e37a429.chunk.js": "/react-portfolio/static/js/2.4e37a429.chunk.js",
@@ -12,10 +12,10 @@
   "static/media/qrcode.svg": "/react-portfolio/static/media/qrcode.580461a3.svg",
   "static/media/Neflio_catalogue_plante.png": "/react-portfolio/static/media/Neflio_catalogue_plante.4835a5d0.png",
   "static/media/pricing.png": "/react-portfolio/static/media/pricing.68a4db6c.png",
-  "static/media/App.css": "/react-portfolio/static/media/Background.2362a6c1.png",
+  "static/media/App.css": "/react-portfolio/static/media/Foreground.21f6ce95.png",
   "static/media/ProjectCard.css": "/react-portfolio/static/media/1.e5722be0.jpg",
-  "static/css/main.a7068522.chunk.css.map": "/react-portfolio/static/css/main.a7068522.chunk.css.map",
+  "static/css/main.4b2b443e.chunk.css.map": "/react-portfolio/static/css/main.4b2b443e.chunk.css.map",
   "index.html": "/react-portfolio/index.html",
-  "precache-manifest.401c6d6f9178c9e0bbd3712aea83fc41.js": "/react-portfolio/precache-manifest.401c6d6f9178c9e0bbd3712aea83fc41.js",
+  "precache-manifest.2834f68eec9f3c2206823684e209eb13.js": "/react-portfolio/precache-manifest.2834f68eec9f3c2206823684e209eb13.js",
   "service-worker.js": "/react-portfolio/service-worker.js"
 }
