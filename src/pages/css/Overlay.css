@@ -19,3 +19,9 @@
     font-weight: 100;
     font-size: small;
 }
+
+@media screen and (max-height : 950px) {
+    .overlay__top-left, .overlay__bottom-right{
+        display: none;
+    }
+  }

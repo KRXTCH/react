@@ -55,7 +55,7 @@ export default function ProExp() {
               &nbsp;
               <a href="https://www.mollie.com/en" target={"_blank"}>
                 Mollie
-              </a>
+              </a>.
               <br />
               <a
                 className="button"

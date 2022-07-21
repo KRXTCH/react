@@ -42,9 +42,6 @@
     border: 10px solid rgb(46, 22, 59);
 }
 
-.plant__container p {
-}
-
 .pricing__img{
     width: 65vh;
     height: auto;
@@ -76,4 +73,37 @@ a{
     padding: 1vh;
     cursor: pointer;
     text-decoration: none;
+}
+
+
+@media screen and (max-height : 950px) {
+    #pro_exp{
+        transform: translateY(425vh);
+        height: 125vh;
+    }
+
+    .pro_exp__container{
+        left: 3rem;
+        right: 3rem;
+        top: 12rem;
+    }
+
+    .plant_catalog__img, .pricing__img{
+        display: none;
+    }
+    
+    .plant__container{
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+
+    .pricing__container{
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+
+    .pricing__container p{
+        float: left;
+        text-align: left;
+    }
 }

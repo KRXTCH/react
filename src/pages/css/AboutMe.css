@@ -44,3 +44,26 @@
     width: fit-content;
      margin: auto;
 }
+
+@media screen and (max-height : 950px) {
+    #about_me{
+        height: 175vh;
+    }
+
+    .about_me__container{
+        left: 3rem;
+        right: 3rem;
+        top: 12rem;
+    }
+
+    .social_media__container{
+       display: block;
+       padding-left: 25%;
+       width: 85%;
+    }
+
+    .social_media_button__container{
+        margin-right: 3rem;
+        margin-left: 0;
+    }
+}

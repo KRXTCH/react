@@ -126,3 +126,19 @@
         transform: scale(1);
     }
 }
+
+@media screen and (max-height : 950px) {
+    .project_card{
+        margin-bottom: 2rem;
+        margin-left: 0;
+    }
+
+    .card__description{
+        font-size: 0.8rem;
+        width: 80%;
+    }
+
+    .illustration__Fill, .illustration__Imagik, .illustration__QubitsRatz{
+        transform: scale(0.7);
+    }
+}

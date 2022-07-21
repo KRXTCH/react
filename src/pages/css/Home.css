@@ -34,8 +34,6 @@
 }
 
 .custom_link{
-    width: 10rem;
-    height: 3rem;
     border-radius: 0;
     border: none;
     background-color: white;
@@ -47,4 +45,28 @@
     font-size: 1.1vh;
     padding: 1vh;
     text-decoration: none;
+}
+
+@media screen and (max-height : 950px) {
+    .home__container{
+        left: 3rem;
+        top: 30%;
+        line-height: 1rem;
+        text-align: justify;
+    }
+
+    .home__title{
+        font-size: 2.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .home__subtitle{
+        font-size: 0.9rem;
+        width: 90%;
+    }
+
+    .custom_link{
+        float: right;
+        margin-right: 15%;
+    }
 }

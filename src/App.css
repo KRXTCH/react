@@ -41,7 +41,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  
 }
 
 .background__front{
@@ -67,4 +66,47 @@
   background: rgb(51,21,70);
   background: linear-gradient(0deg, rgba(51,21,70,1) 70%, rgba(50,16,71,0) 75%); 
   transform: translateZ(150vh);
+}
+
+@media screen and (max-height : 950px) {
+  .App{
+    overflow-x: hidden;
+  }
+
+  .main__container{
+    padding-top: 1rem;
+  }
+
+  .background__front{
+    background-position-y: bottom;
+    height: 100%;
+    width: 300%;
+    transform: translateY(0) translateX(-13rem) translateZ(105vh)!important;
+  }
+
+  .background__middle{
+    background-position-y: bottom;
+    height: 90%;
+    width: 300%;
+    transform: translateX(-30rem) translateZ(55vh);
+  }
+
+  .background__back{
+    background-position-y: bottom;
+    background-position-x: center;
+    height: 95%;
+    width: 430%;
+    left: -160%;
+    transform: translateZ(5vh);
+  }
+
+  .divider{
+    background: none;
+    background: rgb(51,21,70);
+  }
+
+  .nav__container{
+    height: 600vh;
+    backdrop-filter: blur(5px);
+  }
 }

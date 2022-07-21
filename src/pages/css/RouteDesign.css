@@ -11,3 +11,11 @@
     padding-top: 2vh;
     text-transform: uppercase;
 }
+
+@media screen and (max-height : 950px) {
+    .page_route{
+        right: 3rem;
+        width: 40%;
+        top: 7rem;
+    }
+}

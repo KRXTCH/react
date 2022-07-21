@@ -40,3 +40,20 @@
     width: fit-content;
     margin: auto;
 }
+
+@media screen and (max-height : 950px) {
+    #projects{
+        height: 250vh;
+        transform: translateY(175vh);
+    }
+
+    .projects__container{
+        left: 3rem;
+        right: 3rem;
+        top: 12rem;
+    }
+
+    .projects__list{
+        display: block;
+    }
+}
